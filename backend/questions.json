@@ -1,0 +1,38 @@
+[
+  {
+    "id": "A001",
+    "dimension": "anxiety",
+    "text": "我最近经常感到紧张。",
+    "reverse": false
+  },
+  {
+    "id": "A002",
+    "dimension": "anxiety",
+    "text": "我容易担心未来。",
+    "reverse": false
+  },
+  {
+    "id": "D001",
+    "dimension": "depression",
+    "text": "我最近经常感到情绪低落。",
+    "reverse": false
+  },
+  {
+    "id": "D002",
+    "dimension": "depression",
+    "text": "我感觉做什么都提不起兴趣。",
+    "reverse": false
+  },
+  {
+    "id": "S001",
+    "dimension": "somatization",
+    "text": "我最近经常感到身体疲惫。",
+    "reverse": false
+  },
+  {
+    "id": "S002",
+    "dimension": "somatization",
+    "text": "我最近有不明原因的不适。",
+    "reverse": false
+  }
+]
