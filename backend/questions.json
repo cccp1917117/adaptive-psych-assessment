@@ -1,38 +1,164 @@
 [
   {
-    "id": "A001",
-    "dimension": "anxiety",
-    "text": "我最近经常感到紧张。",
+    "id": "SOM001",
+    "dimension": "somatization",
+    "text": "我最近经常感觉身体某些部位不舒服。",
     "reverse": false
   },
   {
-    "id": "A002",
-    "dimension": "anxiety",
-    "text": "我容易担心未来。",
+    "id": "SOM002",
+    "dimension": "somatization",
+    "text": "我最近容易感到头痛、头晕或身体疲惫。",
     "reverse": false
   },
   {
-    "id": "D001",
+    "id": "SOM003",
+    "dimension": "somatization",
+    "text": "我会因为身体上的不适而影响日常活动。",
+    "reverse": false
+  },
+  {
+    "id": "OC001",
+    "dimension": "obsessive_compulsive",
+    "text": "我最近会反复想到一些不想去想的事情。",
+    "reverse": false
+  },
+  {
+    "id": "OC002",
+    "dimension": "obsessive_compulsive",
+    "text": "我做事情时常常需要反复检查才能放心。",
+    "reverse": false
+  },
+  {
+    "id": "OC003",
+    "dimension": "obsessive_compulsive",
+    "text": "我觉得自己有些想法或行为很难控制。",
+    "reverse": false
+  },
+  {
+    "id": "IS001",
+    "dimension": "interpersonal_sensitivity",
+    "text": "我在人际交往中容易感到不自在。",
+    "reverse": false
+  },
+  {
+    "id": "IS002",
+    "dimension": "interpersonal_sensitivity",
+    "text": "我常常担心别人对我的评价。",
+    "reverse": false
+  },
+  {
+    "id": "IS003",
+    "dimension": "interpersonal_sensitivity",
+    "text": "和别人比较时，我容易觉得自己不够好。",
+    "reverse": false
+  },
+  {
+    "id": "DEP001",
     "dimension": "depression",
     "text": "我最近经常感到情绪低落。",
     "reverse": false
   },
   {
-    "id": "D002",
+    "id": "DEP002",
     "dimension": "depression",
-    "text": "我感觉做什么都提不起兴趣。",
+    "text": "我最近对原本感兴趣的事情提不起兴趣。",
     "reverse": false
   },
   {
-    "id": "S001",
-    "dimension": "somatization",
-    "text": "我最近经常感到身体疲惫。",
+    "id": "DEP003",
+    "dimension": "depression",
+    "text": "我有时会觉得生活缺少意义或动力。",
     "reverse": false
   },
   {
-    "id": "S002",
-    "dimension": "somatization",
-    "text": "我最近有不明原因的不适。",
+    "id": "ANX001",
+    "dimension": "anxiety",
+    "text": "我最近经常感到紧张或不安。",
+    "reverse": false
+  },
+  {
+    "id": "ANX002",
+    "dimension": "anxiety",
+    "text": "我容易因为还没有发生的事情而担心。",
+    "reverse": false
+  },
+  {
+    "id": "ANX003",
+    "dimension": "anxiety",
+    "text": "我有时会突然感到害怕或心慌。",
+    "reverse": false
+  },
+  {
+    "id": "HOS001",
+    "dimension": "hostility",
+    "text": "我最近比平时更容易烦躁或生气。",
+    "reverse": false
+  },
+  {
+    "id": "HOS002",
+    "dimension": "hostility",
+    "text": "我有时会觉得别人故意惹我不快。",
+    "reverse": false
+  },
+  {
+    "id": "HOS003",
+    "dimension": "hostility",
+    "text": "我最近更容易产生争执或冲突的冲动。",
+    "reverse": false
+  },
+  {
+    "id": "PHOB001",
+    "dimension": "phobic_anxiety",
+    "text": "我会回避某些让我明显害怕的场景。",
+    "reverse": false
+  },
+  {
+    "id": "PHOB002",
+    "dimension": "phobic_anxiety",
+    "text": "在某些地方或情境中，我会感到强烈不安。",
+    "reverse": false
+  },
+  {
+    "id": "PHOB003",
+    "dimension": "phobic_anxiety",
+    "text": "我会因为害怕而避免独自外出或进入特定环境。",
+    "reverse": false
+  },
+  {
+    "id": "PAR001",
+    "dimension": "paranoid_ideation",
+    "text": "我有时会觉得别人可能在背后议论我。",
+    "reverse": false
+  },
+  {
+    "id": "PAR002",
+    "dimension": "paranoid_ideation",
+    "text": "我容易怀疑别人对我的真实意图。",
+    "reverse": false
+  },
+  {
+    "id": "PAR003",
+    "dimension": "paranoid_ideation",
+    "text": "我有时会觉得别人对我不够公平或有敌意。",
+    "reverse": false
+  },
+  {
+    "id": "PSY001",
+    "dimension": "psychoticism",
+    "text": "我有时会觉得自己的想法和别人明显不同。",
+    "reverse": false
+  },
+  {
+    "id": "PSY002",
+    "dimension": "psychoticism",
+    "text": "我偶尔会感到周围环境变得不太真实。",
+    "reverse": false
+  },
+  {
+    "id": "PSY003",
+    "dimension": "psychoticism",
+    "text": "我有时会感到自己和别人之间有明显隔离感。",
     "reverse": false
   }
 ]
