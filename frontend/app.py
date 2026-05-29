@@ -19,6 +19,7 @@ if "started" not in st.session_state:
 
 # SCL-90 标准 5 级评分映射
 OPTIONS = {
+    "--- 请选择 ---": -1,
     "0 - 从无 (None)": 0,
     "1 - 轻度 (Mild)": 1,
     "2 - 中度 (Moderate)": 2,
@@ -66,12 +67,13 @@ elif st.session_state.started and not st.session_state.is_finished:
     if not questions_list:
         st.session_state.started = False
         st.session_state.is_finished = True
-        st.session_state.rerun()
+        st.rerun()
 
     st.subheader("📋 请回答以下自适应调整题目：")
     
     # 用来临时收集当前页面上这几道题的填答结果
     current_page_answers = {}
+    has_unanswered = False
     
     # 动态渲染当前轮次的题目
     for q in questions_list:
@@ -83,12 +85,20 @@ elif st.session_state.started and not st.session_state.is_finished:
         # 为每道题生成一个下拉选择框
         choice = st.selectbox(f"{q_text}", list(OPTIONS.keys()), key=f"select_{q_id}")
         # 记录分数
-        current_page_answers[q_id] = OPTIONS[choice]
+        score = OPTIONS[choice]
+        current_page_answers[q_id] = score
+        
+        if score == -1:
+            has_unanswered = True
+        
         st.write("")
         
     st.divider()
     
-    if st.button("➡️ 提交当前回答", type="primary"):
+    if has_unanswered:
+        st.caption("⚠️ :red[当前页面仍有题目未解答，请填写完所有题目后再提交。]")
+    
+    if st.button("➡️ 提交当前回答", type="primary", disabled=has_unanswered):
         # 1. 把当前页面的答案，转化成后端要求的格式：{"question_id": "...", "score": ...}
         formatted_current_answers = [
             {"question_id": qid, "score": val} for qid, val in current_page_answers.items()
