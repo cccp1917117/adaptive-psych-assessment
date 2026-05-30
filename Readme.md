@@ -24,7 +24,7 @@ AI-driven adaptive psychological assessment system.
 **Prerequisites (前置条件):**
 
 在 `frontend` 目录下运行以下命令安装依赖：
-```bash
+
 ```pip install streamlit requests```
 
 **Steps to Launch (启动步骤 ):**
