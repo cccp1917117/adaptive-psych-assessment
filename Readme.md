@@ -21,7 +21,8 @@ AI-driven adaptive psychological assessment system.
 - [ ] LLM adaptive interviewing
 
 ## Quick Start
-Pre-requirement: Got streamlit and requests downloaded in the frontend directory by running the command:```pip install streamlit requests```\
+Pre-requirement: Got streamlit and requests downloaded in the frontend directory by running the command:
+```pip install streamlit requests```  
 
-Step 1: Open a terminal and move to the backend directory to run the command:```uvicorn main:app --reload```\
-Step 2: Open a second terminal and move to the frontend directory to run the command:```streamlit run app.py```\
+Step 1: Open a terminal and move to the backend directory to run the command:```uvicorn main:app --reload```  
+Step 2: Open a second terminal and move to the frontend directory to run the command:```streamlit run app.py```  
