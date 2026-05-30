@@ -26,5 +26,7 @@ AI-driven adaptive psychological assessment system.
 ```pip install streamlit requests```
 
 **Steps to Launch (启动步骤 ):**<br>
-Step 1: Open a terminal and move to the backend directory to run the command:```uvicorn main:app --reload```<br>
-Step 2: Open a second terminal and move to the frontend directory to run the command:```streamlit run app.py```
+Step 1: Open a terminal and move to the 'backend' directory to run the command:```uvicorn main:app --reload```<br>
+Step 2: Open a second terminal and move to the 'frontend' directory to run the command:```streamlit run app.py```
+
+**Ways to stop program (终止运行方法):** You can press <kbd>Ctrl</kbd> + <kbd>C</kbd> in the terminal to stop the servers.
